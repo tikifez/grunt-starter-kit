@@ -1,18 +1,18 @@
 {
-  "name": "hells-heart-website",
+  "name": "grunt-starter-kit",
   "version": "1.0.0",
-  "description": "A website for Hell's Heart, a film by Ryan Denmark",
-  "main": "index.js",
+  "description": "A starter kit for building sites on grunt.",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/ink-fish/hells-heart-movie-website.git"
+    "url": "https://github.com/tikifez/grunt-starter-kit.git"
   },
   "author": "Xristopher Anderton",
-  "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/ink-fish/hells-heart-movie-website#readme",
+  "license": "MIT",
+  "homepage": "https://github.com/tikifez/grunt-starter-kit",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-copy": "^1.0.0",

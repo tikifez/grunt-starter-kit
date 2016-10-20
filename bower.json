@@ -1,12 +1,12 @@
 {
-  "name": "hells-heart-website",
-  "description": "A website for Hell's Heart, a film by Ryan Denmark",
-  "main": "index.js",
+  "name": "grunt-starter-kit",
+  "description": "A starter kit for building sites on grunt.",
+  "main": "index.html",
   "authors": [
     "Xristopher Anderton"
   ],
-  "license": "UNLICENSED",
-  "homepage": "http://hellsheartmovie.com",
+  "license": "MIT",
+  "homepage": "https://github.com/tikifez/grunt-starter-kit",
   "private": true,
   "ignore": [
     "**/.*",
