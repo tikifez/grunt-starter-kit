@@ -2,6 +2,20 @@
 
  A starter kit for building sites on grunt. It's kept simple so if your design uses a UI kit you should add that into vender folders as appropriate.
 
+## Get started
+
+1. Install dependencies if needed
+  *  [**Node.js**](https://nodejs.org/en/): Package manager
+  * [**Grunt**](http://gruntjs.com/): Task manager
+  *  [**Bower**](https://bower.io/): Package manager
+  *  [**Compass**](http://compass-style.org/): CSS authoring framework
+2. Clone grunt ui kit
+3. Acquire packages
+  `npm install`
+  `bower install`
+4. Code away!
+
+
 ## Technology stack
 
 ### Resource management
