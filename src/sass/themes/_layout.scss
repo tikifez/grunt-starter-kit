@@ -1,0 +1,30 @@
+* {
+  @include box-sizing(border-box);
+}
+body {
+    background: $color-base-background;
+    color: $color-base-foreground;
+    overflow-x: hidden;
+}
+a:link {
+    color: $color-link-hover;
+    text-decoration: underline;
+}
+a:visited {
+    color: $color-link-hover;
+}
+a:hover {
+    color: $color-link-hover;
+}
+img {
+    max-width: 100%;
+}
+body > footer,
+body > header,
+body > main {
+    padding: $space-large $space-medium;
+}
+section {
+  padding-top: $space-large;
+  padding-bottom: $space-large;
+}

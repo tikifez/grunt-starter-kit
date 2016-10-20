@@ -1,0 +1,43 @@
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+    letter-spacing: $base-tracking;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
+    letter-spacing: $heading-tracking;
+    line-height: $heading-leading;
+    text-align: center;
+    @include tablet {
+        text-align: left;
+    }
+}
+h1 {
+    font-size: type-scale(4, $type-scale);
+}
+h2 {
+    font-size: type-scale(3, $type-scale);
+}
+h3 {
+    font-size: type-scale(2, $type-scale);
+}
+h4 {
+    font-size: type-scale(1, $type-scale);
+}
+h5 {
+    font-size: type-scale(-1, $type-scale);
+}
+h6 {
+    font-size: type-scale(-2, $type-scale);
+}
+p {
+    margin-bottom: $text-space-medium;
+    margin-top: $text-space-small;
+}

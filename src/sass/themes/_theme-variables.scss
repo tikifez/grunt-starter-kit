@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,700');
+
+// colors
+$color-base-background: #fff;
+$color-base-foreground: $color-solarized-base03;
+$color-link-unvisited: $color-solarized-blue;
+$color-link-visited: $color-solarized-violet;
+$color-link-hover: $color-solarized-magenta;
+$color-accent: $color-solarized-orange;
+$color-neutral: $color-solarized-base1;
+$color-primary: $color-solarized-blue;
+
+// typography
+$type-scale: 'minor third';
+$base-font-family: 'Roboto', sans-serif;
+$base-font-size: 16px;
+$base-font-weight: 300;
+$base-leading: 1.25;
+$base-tracking: inherit;
+$font-weight-bold: 700;
+$heading-font-family: 'Roboto', sans-serif;
+$heading-font-weight: 300;
+$heading-tracking: 0.05em;
+$heading-leading: 1.45;
+$text-space-medium: $base-leading;
+$text-space-small: $base-leading/2;
+$text-space-x-small: $base-leading/3;
+$text-space-xx-small: $base-leading/4;
+
+// spacing
+$space-small: $base-font-size/2;
+$space-medium: strip-unit(type-scale(1, $type-scale)) * $base-font-size;
+$space-large: strip-unit(type-scale(2, $type-scale)) * $base-font-size;
+$space-x-large: strip-unit(type-scale(3, $type-scale)) * $base-font-size;
+$space-xx-large: strip-unit(type-scale(5, $type-scale)) * $base-font-size;
+$space-xxx-large: strip-unit(type-scale(8, $type-scale)) * $base-font-size;
+$space-xxxx-large: strip-unit(type-scale(13, $type-scale)) * $base-font-size;

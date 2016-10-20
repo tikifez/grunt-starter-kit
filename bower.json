@@ -1,0 +1,30 @@
+{
+  "name": "hells-heart-website",
+  "description": "A website for Hell's Heart, a film by Ryan Denmark",
+  "main": "index.js",
+  "authors": [
+    "Xristopher Anderton"
+  ],
+  "license": "UNLICENSED",
+  "homepage": "http://hellsheartmovie.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "is-loading": "https://github.com/hekigan/is-loading.git#^1.0.6",
+    "loadcss": "^1.2.0",
+    "jquery-lazy": "^1.7.3",
+    "jquery": "^3.1.1",
+    "jquery-validation": "^1.15.1",
+    "zen-grids": "^2.0.2",
+    "sassy-buttons": "*"
+  },
+  "resolutions": {
+    "jquery": "^3.1.1"
+  }
+}

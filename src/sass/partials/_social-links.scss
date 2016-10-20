@@ -1,0 +1,38 @@
+
+.sticky-tool-social {
+    width: auto;
+    @include tablet {
+        width: 30%;
+    }
+}
+.social-links {
+    @include transition-property(background);
+    @include transition-duration(0.7s);
+    @include transition-timing-function(ease-in-out);
+    background: rgba(0,0,0,0.35);
+    bottom: 0;
+    color: #c0bfbf;
+    float: left;
+    position: fixed;
+    z-index: 999;
+    &:hover {
+        background: rgba(0,0,0,0.9);
+    }
+    @include tablet {
+        margin-left: 30px;
+    }
+}
+.social-links a {
+      color: #c0bfbf;
+}
+.social-links .social {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    @include tablet {
+        padding: 15px;
+    }
+}
+.social-links .social img {
+    width: 17px;
+}

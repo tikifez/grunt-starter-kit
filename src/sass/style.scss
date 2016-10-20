@@ -1,0 +1,10 @@
+/*!
+ * Website v1.0.0 (http://www.example.com)
+ * Copyright 2016 Inkfish
+ */
+
+@import "venders/venders"; // venders such as compass, bootstrap, poly, etc.
+@import "helpers/helpers"; // helpers such as mixins and functions
+@import "themes/themes"; // theme styling
+@import "partials/partials"; // styling for specific html partials
+@import "components/components"; // components such as widgets and form fields

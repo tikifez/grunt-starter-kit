@@ -1,0 +1,52 @@
+// Maintain ratio mixin. Great for responsive grids, or videos.
+// https://gist.github.com/brianmcallister/2932463
+//
+// $ratio - Ratio the element needs to maintain.
+//
+// Examples
+//
+//   // A 16:9 ratio would look like this:
+//   .element {
+//     @include maintain-ratio(16 9);
+//   }
+@mixin overlay-gradient($position, $height: 100%) {
+    @if $height == '' {
+        $height: 100%;
+    }
+    @if $position == 'before' {
+        &::before {
+            // @include filter-gradient(ie-hex-str(rgba(0,0,0,0.65)), ie-hex-str(rgba(0,0,0,0)), vertical); // ie6-9
+            @include background-image(linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%));
+            height: $height;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            content: '';
+        }
+    }
+    @else if $position == 'after' {
+        &::after {
+            // @include filter-gradient(ie-hex-str(rgba(0,0,0,0.65)), ie-hex-str(rgba(0,0,0,0)), vertical); // ie6-9
+            @include background-image(linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%));
+            height: $height;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            content: '';
+        }
+    }
+    @else if $position == 'cover' {
+        &::before {
+            // @include filter-gradient(ie-hex-str(rgba(0,0,0,0.65)), ie-hex-str(rgba(0,0,0,0)), vertical); // ie6-9
+            @include background-image(linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%));
+            height: 100%;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            content: '';
+        }
+    }
+    @else {
+         @warn"You need to specify before or after.";
+    }
+}

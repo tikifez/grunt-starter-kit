@@ -1,0 +1,27 @@
+{
+  "name": "hells-heart-website",
+  "version": "1.0.0",
+  "description": "A website for Hell's Heart, a film by Ryan Denmark",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/ink-fish/hells-heart-movie-website.git"
+  },
+  "author": "Xristopher Anderton",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/ink-fish/hells-heart-movie-website#readme",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-html-build": "^0.6.1",
+    "grunt-wiredep": "^3.0.1",
+    "matchdep": "^1.0.1"
+  }
+}
